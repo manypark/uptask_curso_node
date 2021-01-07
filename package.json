@@ -4,10 +4,10 @@
   "description": "Poryecto UpTask con Node y MVC",
   "main": "index.js",
   "scripts": {
-    "development" : "concurrently \"npm run dev\" \"npm run watch\" ",
-    "dev"         : "nodemon index.js",
-    "start"       : "nodemon index.js",
-    "watch"       : "webpack --watch --mode development"
+    "development": "concurrently \"npm run dev\" \"npm run watch\" ",
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js",
+    "watch": "webpack --watch --mode development"
   },
   "author": "Manuel Maldanado",
   "license": "ISC",
